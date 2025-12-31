@@ -1,0 +1,16 @@
+[project]
+name = "chemicalgraphseries"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rdkit",
+    "torch",
+    "torch-geometric",
+    "networkx",
+    "matplotlib",
+    "pandas",
+    "jupyter>=1.1.1",
+    "py3dmol>=2.5.3",
+]
